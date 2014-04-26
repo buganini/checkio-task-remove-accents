@@ -24,5 +24,9 @@ TESTS = {
             "input": u"König",
             "answer": u"Konig",
         },
+        {
+            "input": u"完好無缺",
+            "answer": u"完好無缺",
+        },
     ],
 }
