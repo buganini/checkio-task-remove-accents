@@ -1,4 +1,4 @@
-def checkio(a, b):
+def checkio(s):
     """
         remove accents
     """

@@ -18,7 +18,7 @@ TESTS = {
         },
         {
             "input": u"loài trăn lớn",
-            "answer": u"loài tran lón",
+            "answer": u"loai tran lon",
         },
         {
             "input": u"König",
