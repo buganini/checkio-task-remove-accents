@@ -1,11 +1,11 @@
 def checkio(a, b):
     """
-        sums two passed arguments
+        remove accents
     """
     return None
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert checkio(u"préfèrent") == u"preferent"
-    assert checkio(u"loài trăn lớn") == u"loài tran lón"
+    assert checkio(u"loài trăn lớn") == u"loai tran lon"
     print('Done')
