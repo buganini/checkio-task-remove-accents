@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 TESTS is a dict with all you tests.
 Keys for this will be categories' names.
@@ -11,26 +13,16 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": u"préfèrent",
+            "answer": u"preferent",
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
-        }
+            "input": u"loài trăn lớn",
+            "answer": u"loài tran lón",
+        },
+        {
+            "input": u"König",
+            "answer": u"Konig",
+        },
     ],
-    "Extra": [
-        {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
-        },
-        {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
-        }
-    ]
 }
