@@ -1,11 +1,13 @@
 <p>Assuming you are developing a user based system like facebook, you will want to provide the functionality to search for other members regardless of the presence of accents in a username. Without using 3rd party collation library, you will need to remove the accents from username before comparison.</p>
 
+<p>é - letter with accent; e - letter without accent; ̀ and ́ - stand alone accents;</p>
+
 <p>
-    <strong>Input: </strong> A Unicode string
+    <strong>Input:</strong> A phrase as a string (unicode)
 </p>
 
 <p>
-    <strong>Output: </strong> An accent free Unicode string.
+    <strong>Output:</strong> An accent free Unicode string.
 </p>
 
 
@@ -19,3 +21,11 @@ checkio(u"préfèrent") == u"preferent"
 checkio(u"loài trăn lớn") == u"loai tran lon"
     </pre>
 </div>
+
+<p>
+    <strong>How it is used:</strong> It might be a part username verification process or system that propose username based on first and last name of user
+</p>
+
+<p>
+    <strong>Precondition:</strong> 0&le;|input|&le;40
+</p>
